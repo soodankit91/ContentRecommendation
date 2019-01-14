@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/PycharmProjects/ClientRecommendation/.idea/ClientRecommendation.iml" filepath="$USER_HOME$/PycharmProjects/ClientRecommendation/.idea/ClientRecommendation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ImageRecommendation/.idea/ImageRecommendation.iml" filepath="$PROJECT_DIR$/../ImageRecommendation/.idea/ImageRecommendation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/Recommendation.iml" filepath="$PROJECT_DIR$/../.idea/Recommendation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TextRecommendation.iml" filepath="$PROJECT_DIR$/.idea/TextRecommendation.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/untitled/.idea/untitled.iml" filepath="$USER_HOME$/PycharmProjects/untitled/.idea/untitled.iml" />
+    </modules>
+  </component>
+</project>
