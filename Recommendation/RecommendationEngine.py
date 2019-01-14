@@ -1,4 +1,4 @@
-from Recommendation.ESconnect import ESconnect
+from Recommendation.ESservice import ESconnect
 from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer

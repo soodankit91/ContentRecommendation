@@ -1,5 +1,5 @@
 from Discovery.AbstractContent import AbstractContentSource
-from Recommendation.ESconnect import ESconnect
+from Recommendation.ESservice import ESconnect
 
 class YouTubeAdapter(AbstractContentSource):
     def adaptToES(ids, links, titles, descriptions, tags):
