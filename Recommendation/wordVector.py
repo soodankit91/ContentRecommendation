@@ -1,6 +1,6 @@
 from gensim.models.keyedvectors import KeyedVectors
 
-model = KeyedVectors.load_word2vec_format('/Users/ankitsood/Documents/losial/recommendation/code/GoogleNews-vectors-negative300.bin', binary=True)
+model = KeyedVectors.load_word2vec_format('../resources/GoogleNews-vectors-negative300.bin', binary=True)
 
 def vectorSimilarity(list1, list2, threshold=0.3):
     sim = 0.0
@@ -17,5 +17,3 @@ def vectorSimilarity(list1, list2, threshold=0.3):
 
 def getSimilarity(word1, word2):
     return model.similarity(word1,word2)
-
-print (getSimilarity('burger','food'))
