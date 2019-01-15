@@ -31,10 +31,7 @@ class MediumUpdate:
         for itr in json_response['payload']['streamItems']:
             if 'postPreview' in itr:
                 postIds.append(itr['postPreview']['postId'])
-        # print(json_response['payload']['references']['Post'])
-        # print(postIds)
 
-        dataList = []
         links = []
         titles = []
         descriptions = []

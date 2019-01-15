@@ -1,5 +1,5 @@
 from Discovery.AbstractContent import AbstractContentSource
-from Recommendation.ESservice import ESconnect
+from Recommendation.ESservice import ESservice
 
 
 class wordPressAdapter(AbstractContentSource):
@@ -18,4 +18,4 @@ class wordPressAdapter(AbstractContentSource):
             dataList.append(jsonDict)
             print(jsonDict)
 
-        return ESconnect.insertSingle(ESconnect.getInstance(), dataList)
+        return ESservice.insertSingle(ESservice.getInstance(), dataList)

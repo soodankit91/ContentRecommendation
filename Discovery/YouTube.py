@@ -1,9 +1,5 @@
 import requests
 from Discovery.YouTubeAdapter import YouTubeAdapter
-from nltk.tokenize import RegexpTokenizer
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from operator import itemgetter
 
 class YouTube:
 
@@ -43,4 +39,4 @@ class YouTube:
 
 
 if __name__ == '__main__':
-    YouTube('AIzaSyAIlV0RK3GsPRoJReMflOMPCLeU6ilgW8E', ['tourism', 'India', 'winters']).requestVideos()
+    YouTube('<Your API key>', ['tourism', 'India', 'winters']).requestVideos()

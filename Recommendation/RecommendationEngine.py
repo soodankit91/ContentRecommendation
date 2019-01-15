@@ -1,4 +1,4 @@
-from Recommendation.ESservice import ESconnect
+from Recommendation.ESservice import ESservice
 from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
@@ -6,7 +6,7 @@ import Recommendation.wordVector as wV
 import operator
 
 
-class searchES:
+class RecommendationEngine:
 
     lemmatizer = WordNetLemmatizer()
     stop = set(stopwords.words('english'))
@@ -22,7 +22,7 @@ class searchES:
 
     def searchRecommendations(self, searchWords, mediaTypes = None, sources = []):
 
-        es = ESconnect.getConnection(ESconnect())
+        es = ESservice.getConnection(ESservice())
         articlesList = []
 
         # select all media types if no media type is specified
@@ -104,4 +104,4 @@ class searchES:
 
 if __name__ == '__main__':
     queryList = ['tourism','India','winter','food']
-    print ("recommended list = ",searchES(['image','video'],['YouTube','Unsplash']).getRecommendations(queryList))
+    print ("recommended list = ", RecommendationEngine(['image', 'video'], ['YouTube', 'Unsplash']).getRecommendations(queryList))

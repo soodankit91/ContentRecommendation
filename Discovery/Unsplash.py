@@ -44,4 +44,4 @@ class Unsplash:
         UnsplashAdapter.adaptToES(ids, links, titles, descriptions, linkTags)
 
 if __name__ == '__main__':
-    Unsplash('fbc7a23c2137c0978215fbe4009b641bc15732a79a0998054b9fa0cbdb8fff97', ['tourism', 'India', 'winters']).requestImagess()
+    Unsplash('<Your API key>', ['tourism', 'India', 'winters']).requestImagess()

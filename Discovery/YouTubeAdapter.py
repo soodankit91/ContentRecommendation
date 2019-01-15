@@ -1,5 +1,5 @@
 from Discovery.AbstractContent import AbstractContentSource
-from Recommendation.ESservice import ESconnect
+from Recommendation.ESservice import ESservice
 
 class YouTubeAdapter(AbstractContentSource):
     def adaptToES(ids, links, titles, descriptions, tags):
@@ -17,5 +17,5 @@ class YouTubeAdapter(AbstractContentSource):
             dataList.append(jsonDict)
             print(jsonDict)
 
-        ESconnect.insertSingle(ESconnect.getInstance(), dataList)
+        ESservice.insertSingle(ESservice.getInstance(), dataList)
 

@@ -1,5 +1,5 @@
 from Discovery.AbstractContent import AbstractContentSource
-from Recommendation.ESservice import ESconnect
+from Recommendation.ESservice import ESservice
 
 class UnsplashAdapter(AbstractContentSource):
     def adaptToES(ids, links, titles, descriptions, tags):
@@ -14,5 +14,5 @@ class UnsplashAdapter(AbstractContentSource):
             jsonDict['mediaType'] = 'image'
 
             dataList.append(jsonDict)
-        ESconnect.insertSingle(ESconnect.getInstance(), dataList)
+        ESservice.insertSingle(ESservice.getInstance(), dataList)
 

@@ -23,7 +23,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="51" />
+          <entry key="py" value="54" />
           <entry key="txt" value="1" />
           <entry key="wordPress" value="1" />
         </counts>
@@ -31,19 +31,19 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="51" />
+          <entry key="Python" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="25" />
-          <entry key="py" value="12223" />
+          <entry key="dummy" value="80" />
+          <entry key="py" value="12260" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="148" />
-          <entry key="Python" value="12100" />
+          <entry key="PLAIN_TEXT" value="203" />
+          <entry key="Python" value="12137" />
         </counts>
       </usages-collector>
     </session>
@@ -54,26 +54,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Recommendation/ESconnect.py">
+        <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Recommendation/ESservice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="465">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
-                <marker date="1547061284000" expanded="true" signature="247:406" ph="..." />
-                <marker date="1547061284000" expanded="true" signature="2034:2423" ph="..." />
+                <marker date="1547580992000" expanded="true" signature="247:406" ph="..." />
+                <marker date="1547580992000" expanded="true" signature="2034:2423" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Recommendation/wordVector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/Unsplash.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="443">
+              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1546455882000" expanded="true" signature="86:87" ph="..." />
+                <marker date="1547581076000" expanded="true" signature="86:87" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/YouTube.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-127">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1547581040000" expanded="true" signature="120:227" ph="..." />
               </folding>
             </state>
           </provider>
@@ -100,7 +122,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/mediumAdapter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+                <marker date="1547580992000" expanded="true" signature="151:156" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/wordPress.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -125,50 +160,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/medium.py">
+        <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Recommendation/RecommendationEngine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-              <folding>
-                <element signature="e#52#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/YouTube.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1546456019000" expanded="true" signature="268:375" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/YouTubeAdapter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Recommendation/searchES.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1590">
-              <caret line="106" column="28" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
+            <state relative-caret-position="323">
+              <caret line="97" column="37" lean-forward="true" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
-                <marker date="1547494426000" expanded="true" signature="235:237" ph="..." />
+                <marker date="1547580992000" expanded="true" signature="247:249" ph="..." />
               </folding>
             </state>
           </provider>
@@ -242,6 +240,11 @@
         <option value="$PROJECT_DIR$/../ContentRecommendation/Discovery/searchES.py" />
         <option value="$PROJECT_DIR$/../ContentRecommendation/Recommendation/searchES.py" />
         <option value="$PROJECT_DIR$/../ContentRecommendation/Discovery/wordPress.py" />
+        <option value="$PROJECT_DIR$/../ContentRecommendation/Recommendation/wordVector.py" />
+        <option value="$PROJECT_DIR$/../ContentRecommendation/Recommendation/RecommendationEngine.py" />
+        <option value="$PROJECT_DIR$/../ContentRecommendation/Recommendation/ESservice.py" />
+        <option value="$PROJECT_DIR$/../ContentRecommendation/Discovery/YouTube.py" />
+        <option value="$PROJECT_DIR$/../ContentRecommendation/Discovery/Unsplash.py" />
       </list>
     </option>
   </component>
@@ -403,7 +406,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ContentRecommendation/Recommendation/searchES.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ContentRecommendation/Recommendation/RecommendationEngine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -498,12 +501,12 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../ContentRecommendation/Recommendation/ESconnect.py</url>
+          <url>file://$PROJECT_DIR$/../ContentRecommendation/Recommendation/ESservice.py</url>
           <line>7</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../ContentRecommendation/Recommendation/ESconnect.py</url>
+          <url>file://$PROJECT_DIR$/../ContentRecommendation/Recommendation/ESservice.py</url>
           <line>12</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -596,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Recommendation/wordVector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ImageRecommendation/YouTube.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-787">
@@ -651,52 +647,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/mediumAdapter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-            <marker date="1547486519000" expanded="true" signature="151:156" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/medium.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
           <folding>
             <element signature="e#52#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/AbstractContent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Recommendation/ESconnect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <marker date="1547061284000" expanded="true" signature="247:406" ph="..." />
-            <marker date="1547061284000" expanded="true" signature="2034:2423" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/YouTube.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1546456019000" expanded="true" signature="268:375" ph="..." />
           </folding>
         </state>
       </provider>
@@ -711,38 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/UnsplashAdapter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/Unsplash.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1546455882000" expanded="true" signature="86:87" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Recommendation/searchES.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="106" column="28" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-            <marker date="1547494426000" expanded="true" signature="235:237" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/wordPressAdapter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -753,12 +677,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/AbstractContent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/mediumAdapter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <marker date="1547580992000" expanded="true" signature="151:156" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Recommendation/wordVector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/UnsplashAdapter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Recommendation/ESservice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <marker date="1547580992000" expanded="true" signature="247:406" ph="..." />
+            <marker date="1547580992000" expanded="true" signature="2034:2423" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Recommendation/RecommendationEngine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="97" column="37" lean-forward="true" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+            <marker date="1547580992000" expanded="true" signature="247:249" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/YouTube.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1547581040000" expanded="true" signature="120:227" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/wordPress.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ContentRecommendation/Discovery/Unsplash.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1547581076000" expanded="true" signature="86:87" ph="..." />
           </folding>
         </state>
       </provider>

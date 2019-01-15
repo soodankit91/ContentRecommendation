@@ -1,19 +1,19 @@
 from elasticsearch import Elasticsearch
 
-class ESconnect:
+class ESservice:
     __instance = None
 
     @staticmethod
     def getInstance():
-        if ESconnect.__instance == None:
-            ESconnect()
-        return ESconnect.__instance
+        if ESservice.__instance == None:
+            ESservice()
+        return ESservice.__instance
 
     def __init__(self):
-        if ESconnect.__instance != None:
+        if ESservice.__instance != None:
             raise Exception("This class is a singleton!")
         else:
-            ESconnect.__instance = self
+            ESservice.__instance = self
 
     def getConnection(self):
         return Elasticsearch([{"host": "localhost", "port": 9200}])
@@ -85,4 +85,4 @@ class ESconnect:
         #self.deleteData()
 
 if __name__== "__main__":
-    ESconnect().main()
+    ESservice().main()
