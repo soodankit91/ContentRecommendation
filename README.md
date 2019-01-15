@@ -1,5 +1,7 @@
 # Content Recommendation
 ## A NLP based framework for content recommendation
+   
+   Please refer [this blog](https://medium.com/social-media-help-support/a-nlp-based-framework-for-content-recommendation-e49a73d12220) on a detailed description of the framework. 
 
 ## Using the framework 
 
@@ -33,6 +35,6 @@ Note that the class ESservice, responsible for inserting data in ElasticSearch, 
 
 It is to be noted that only the content present in our ElasticSearch data store shall be recommended 
 
-1. Download word2vec from here https://code.google.com/archive/p/word2vec/ and place it inside the resources folder.
+1. Download word2vec from [here](https://code.google.com/archive/p/word2vec/) and place it inside the resources folder.
 2. Instantiate RecommendationEngine by passing a list of media types and a list of content sources to its constructor. 
 3. Call the method getRecommendations() using the instance created in step 2 and pass to it a list of keywords for which a        recommendation is desired. 
